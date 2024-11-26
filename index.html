@@ -29,7 +29,10 @@
             margin-top: 20px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
-        h1, h2, h3 {
+        h1 {
+            color: #ffffff;
+        }
+        h2, h3 {
             color: #444;
         }
         .section {
@@ -58,7 +61,12 @@
     </div>
     <div class="section">
         <h2>Hector Exoskeleton</h2>
+        <img src="images/hectorSide.jpg" alt="Hector Exoskeleton Side Profile" class="project-image" width="500">
         <p>18 DOF full body exoskeleton with assistive mobility capabilities. Built from the ground up, the shoulder joint features a unique 3-motor design for full degrees of freedom.</p>
+        <video controls  width="500" class="video-class">
+            <source src="images/hectorUpperBody.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>        
         <h3>Key Achievements</h3>
         <ul>
             <li>Tested knee movement and hip elevation</li>
@@ -66,13 +74,19 @@
             <li>Electronics powered by Milwaukee M18 batteries</li>
             <li>Integration of motor controllers and Raspberry Pi 4B</li>
         </ul>
+        <video controls width="100%" class="video-class">
+            <source src="images/hectorWalks.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
     <div class="section">
         <h2>OpenMutt Quadruped</h2>
         <p>An open-source robotic quadruped featuring 12 DOF and a standalone simulation package.</p>
+        <img src="images/openMuttStanding.jpg" alt="openMutt Standing" class="project-image" width="500">
         <h3>Electrical Design</h3>
         <ul>
-            <li>Runs on two Milwaukee M18 drill batteries</li>
+            <li>Powered by Milwaukee M18 drill batteries</li>
+            <li>features CAN bus as the primary communication protocol</li>
             <li>MCU is a Latte Panda Delta 3 running Ubuntu 20.04</li>
         </ul>
         <h3>Software Design</h3>
@@ -81,28 +95,31 @@
             <li>Created URDF for Gazebo simulation</li>
             <li>Developed nodes for data acquisition and motor control</li>
         </ul>
+        <video controls width="500" class="video-class" >
+            <source src="images/openMuttWalks.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
     <div class="section">
         <h2>Additional Projects</h2>
         <h3>Interior Space Mapper</h3>
+        <img src="images/interiorMapperDoohickey.png" alt="Interior Space Mapper" class="project-image" width="500">
         <p>Instrumentation project using stepper motors, ultrasonic sensors, and MATLAB for data visualization.</p>
+        <img src="images/interiorMapperResults.png" alt="Interior Space Mapper" class="project-image" width="500">
+        <video controls width="100%" class="video-class">
+            <source src="images/interiorMapperInAction.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h3>Yolov7 Gait Analysis Package</h3>
+        <img src="images/gaitMapped.png" alt="Interior Space Mapper" class="project-image" width="500">
         <p>Analyzed video of runners to determine joint angles and identify potential injuries.</p>
-        <h3>Fastest Jet-Powered Skateboard</h3>
+        <img src="images/gaitMapperResults.png" alt="Interior Space Mapper" class="project-image" width="500">
+        <h3>Jet-Powered Skateboard</h3>
         <p>High school project controlled by Arduino Uno acting as an RC receiver.</p>
-    </div>
-    <div class="section">
-        <h2>Work Experience</h2>
-        <h3>VerdeGo</h3>
-        <ul>
-            <li>Developed components like bellhousing and driveshaft</li>
-            <li>R&D on cooling methods</li>
-        </ul>
-        <h3>Collins Aerospace</h3>
-        <ul>
-            <li>Automated Python scripts saving 2000+ man hours</li>
-            <li>Emergency validation of cargo braking systems</li>
-        </ul>
+        <video controls width="100%" class="video-class">
+            <source src="images/jetBoard.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>        
     </div>
 </div>
 </body>
